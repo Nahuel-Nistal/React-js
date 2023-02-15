@@ -1,0 +1,43 @@
+header {
+    background: linear-gradient(rgb(0, 0, 15), rgb(7, 1, 83));
+}
+
+header img {
+    width: 50px;
+    margin: 10px;
+    padding: 5px;
+}
+
+header .logo {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Russo One", sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+    header .logo {
+        visibility: hidden;
+    }
+}
+
+header .logo:hover {
+    color: rgb(255, 255, 255);
+}
+
+header li {
+    margin: 0px 20px;
+    font-weight: 600;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: grey;
+}
+
+header .counter {
+    color: aliceblue;
+}

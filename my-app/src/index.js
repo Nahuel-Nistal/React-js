@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+/*import App from './App.js';*/
 import reportWebVitals from './reportWebVitals';
+import Menu from './components/menu/Menu';
+import Paisaje from './components/paisaje/Paisaje';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Menu />
+    <Paisaje />
   </React.StrictMode>
 );
 
