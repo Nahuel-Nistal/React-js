@@ -5,6 +5,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing';
+import CartWidget from './components/CartWidget/CartWidget';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +14,8 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Landing />
+    <CartWidget />
+    <ItemListContainer />
   </React.StrictMode>
 );
 
