@@ -1,7 +1,7 @@
 import React from 'react';
-import './Menu.css';
+import './Navbar.css';
 
-const Menu = () => {
+const Navbar = () => {
   return (
     <>
       <header class="header-container">
@@ -46,4 +46,4 @@ const Menu = () => {
   );
 }
 
-export default Menu;
+export default Navbar;

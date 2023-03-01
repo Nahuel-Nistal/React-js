@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 /*import App from './App.js';*/
 import reportWebVitals from './reportWebVitals';
-import Menu from './components/menu/Menu';
-import Paisaje from './components/paisaje/Paisaje';
+import Navbar from './components/Navbar/Navbar';
+import Landing from './components/Landing/Landing';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Menu />
-    <Paisaje />
+    <Navbar />
+    <Landing />
   </React.StrictMode>
 );
 

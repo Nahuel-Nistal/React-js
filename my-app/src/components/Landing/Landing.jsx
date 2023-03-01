@@ -1,10 +1,10 @@
 import React from 'react';
-import './Paisaje.css';
+import './Landing.css';
 
-const Paisaje = () => {
+const Landing = () => {
     return (
         <h1>Mi Tienda Online Proximamente</h1>
     );
 }
 
-export default Paisaje;
+export default Landing;
